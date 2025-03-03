@@ -1,0 +1,82 @@
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    z-index: 999;
+}
+.logo{
+text-decoration: none;
+color:#3a6cf4;
+font-weight: 700;
+font-size: 1.8em;
+ }
+.navigation a{
+    text-decoration: none;
+color:#3a6cf4;
+font-weight: 500;
+font-size: 1.8em;
+padding-left: 30px;
+}
+.navigation a:hover{
+    color: #601cfc;
+}
+:root{
+    --main-Color1: #2D336B;
+    --main-Color2: #7886C7;
+    --main-Color3: #A9B5DF;
+    --main-Color4: #FFF2F2;
+}
+.Project{
+ background-color: var(--main-Color3);
+ text-align: center;
+}
+h2{
+    color: var(--main-Color4);
+    font-size: 40px;
+    font-weight: bold;
+}
+.allprojects{
+    background-color: var(--main-Color4);
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.allprojects .Projectcard div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.contact{
+    display: flex;
+    justify-content:space-around ;
+    margin-top: 10px;
+}
+.contact span{
+    background-color: var(--main-Color1);
+    padding: 20px 30px;
+    border-radius: 30px;
+    color: var(--main-Color4);
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 300px;
+     background-color: var(--main-Color1);
+ }
+.footer span{
+    color: var(--main-Color4);
+    font-size: 30px;
+    font-weight: bold;
+   
+} 
